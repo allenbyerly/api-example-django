@@ -21,9 +21,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '=*l&a&rk7jmiw$3euke*z9lu-na!^j^i&ddejfik!ajqlaymmc'
+SOCIAL_AUTH_DRCHRONO_KEY = 'gF479hOENw6dE6tXly7NX9g2LcnbUcZ4lww6QsjX'
+SOCIAL_AUTH_DRCHRONO_SECRET = 'gF479hOENw6dE6tXly7NX9g2LcnbUcZ4lww6QsjX'
+SOCIAL_AUTH_DRCHRONO_SCOPE = ''
+LOGIN_REDIRECT_URL = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
